@@ -4,7 +4,6 @@
 "description" : "Adds a button that lets you download YouTube videos as MP4 and FLV.",
 "manifest_version" : 2,
 "version" : "1.8.5.1",
-"background" : {"page" : "index.html"},
 "icons" : {"128": "icons/icon.png"},
 "content_scripts": [
 {"js": ["includes/yt.user.js"], "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"], "exclude_matches": ["http://www.youtube.com/embed/*", "https://www.youtube.com/embed/*"], "run_at": "document_start"}],
